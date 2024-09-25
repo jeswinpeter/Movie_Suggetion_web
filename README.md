@@ -7,5 +7,7 @@
 * You can mix and match movie types which will show you a list of movies
 * `Each movie will have a discription with my opinion and imdb link`
 
+#### _I am currently learning the concepts needed to build this website_
+
 ### _This project is expected to come out 2025 JUNE_
 
