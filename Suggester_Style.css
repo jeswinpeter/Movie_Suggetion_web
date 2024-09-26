@@ -1,0 +1,83 @@
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Protest Guerrilla",sans-serif;
+    line-height: 2;
+    color: #333;
+}
+
+.hero {
+    background-image: url("D:/Movie Suggeter/IMG/Hero_image_test.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(218, 5, 5, 0.651); /* add a box shadow */
+    padding: 10px;
+    font-size: 36px;
+}
+
+.bubble {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161111cb; /* background color */
+    color: #f7be06; /* font color */
+    backdrop-filter: blur(2px);
+    padding: 25px; /* add some padding to create a box effect */
+    border-radius: 10px;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.Menu {
+    
+    margin-left: -10%;
+    backdrop-filter: blur(2px);
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    margin-left: 50%;
+    margin-right: 50%;
+    align-items: center;
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #161111cb;
+    margin-left: -10%;
+    padding: 15px; /* add some padding to create a box effect */
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 60px;
+}
+
+nav a {
+    color: #f7be06; /* font color */
+    text-decoration: none;
+}
