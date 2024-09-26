@@ -9,7 +9,7 @@
 
 #### _I am currently learning the concepts needed to build this website_
 
-## _The website now present is a very crude version of my vision
+## _The website now present is a very crude version of my vision_
 
 ### _This project is expected to come out 2025 JUNE_
 
