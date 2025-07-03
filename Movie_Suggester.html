@@ -27,9 +27,13 @@
                         <!-- <h1>Find Your Movie</h1> -->
                         <div class="search-box">
                             <span class="search-icon">🔍</span>
-                            <input type="text" placeholder="Find Your Movie">
+                            <input type="text" id="Userin" placeholder="Find Your Movie">
                         </div>
-                        <p>Mix and match generes and find the right movie for you mood</p>
+                        <p>
+                            Mix and match generes and find the right movie for you mood
+                        </p>
+                        
+                        <p id="result"></p>
                     </div>
                 </div>
             </section>
@@ -37,5 +41,19 @@
         <footer>
             <p>&copy; Copyright reserved</p>
         </footer>
+
+        <script>
+            let inputBox = document.getElementById("Userin");
+            let resultText = document.getElementById("result");
+            
+
+            inputBox.addEventListener("keydown", function(event) {
+                if(event.key === "Enter") {
+                    let searchText = inputBox.value;
+
+                    resultText.innerText = "Can't find " + searchText
+                }
+            });
+        </script>
     </body>
 </html>
