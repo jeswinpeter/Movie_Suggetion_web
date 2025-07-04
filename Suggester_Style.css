@@ -50,6 +50,7 @@ body {
     height: 50px;
     align-items: center;
     justify-content: center;
+    border: none;
     /* backdrop-filter: blur(1px); */
 }
 
@@ -72,15 +73,26 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-    
     border-radius: 10px;
     text-align: center;
+
+    transition: box-shadow 0.3s ease;
 }
 
 .search-box input::placeholder {
     text-align: center;
     font-family: "Protest Guerrilla", sans-serif;
     color: #f7be06;
+}
+
+.search-box input:hover {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.search-box input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 .hero-container {
